@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../logo192.svg';
+import logo from '../Logo.png';
 import './Header.css';
 
 export default function Header({ setSeccionActiva }) {
@@ -29,10 +29,17 @@ export default function Header({ setSeccionActiva }) {
     <header className={`site-header ${scrollActivo ? 'scrolled' : ''}`}>
       <div className="container header-inner">
         <div className="brand">
-          <img src={logo} alt="Iglesia logo" className="logo" />
+          <img 
+  src={logo} 
+  alt="Iglesia logo" 
+  className="logo"
+  style={{ width: "100px", height: "auto" }}
+/>
           <div>
-            <h1 className="site-title">Iglesia La Luz</h1>
-            <p className="site-subtitle">Comunidad y esperanza</p>
+            <h1 className="site-title">
+  Asociación Jesucristo <br /> Liberador
+</h1>
+            {/*<p className="site-subtitle">Comunidad y esperanza</p>*/} 
           </div>
         </div>
 
