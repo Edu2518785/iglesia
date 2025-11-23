@@ -4,7 +4,7 @@ import Inicio from './components/Inicio';
 import QuienesSomos from './components/QuienesSomos';
 import Documentacion from './components/Documentacion';
 import Devocionario from './components/Devocionario';
-import fondo from './assets/images/fondo.jpg';
+import fondo from './assets/images/ban1.jpeg';
 import './styles/App.css';
 
 function App() {

@@ -43,10 +43,9 @@ export default function QuienesSomos() {
       {/* 📸 Sección principal gráfica */}
       <section className="qs-grafico">
         <div className="qs-grafico-content">
-          <h2>Somos la Iglesia La Luz</h2>
+          <h2>Somos una nueva Luz que transforma</h2>
           <p>
-            Una comunidad con trayectoria, guiando y acompañando a nuestras familias 
-            en la fe, la esperanza y la solidaridad.
+            Una comunidad que acompaña, guía y comparte la fe, llevando esperanza y amor a cada familia que encuentra en el camino.
           </p>
           <div className="qs-grafico-fotos">
             {[q1, q2, q3, q4, q5, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26].map((img, i) => (

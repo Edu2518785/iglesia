@@ -37,7 +37,7 @@ export default function Header({ setSeccionActiva }) {
 />
           <div>
             <h1 className="site-title">
-  Asociación Jesucristo <br /> Liberador
+  Iglesia  Católica Apostólica Nacional <br />
 </h1>
             {/*<p className="site-subtitle">Comunidad y esperanza</p>*/} 
           </div>
