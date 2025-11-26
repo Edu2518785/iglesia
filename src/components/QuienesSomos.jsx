@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './QuienesSomos.css';
+import Ad0 from '../assets/images/Ad0.jpg';
 import q1 from '../assets/images/q1.jpeg';
 import q2 from '../assets/images/q2.jpeg';
 import q3 from '../assets/images/q3.jpeg';
@@ -25,7 +26,9 @@ import q23 from '../assets/images/q23.jpeg';
 import q24 from '../assets/images/q24.jpeg';
 import q25 from '../assets/images/q25.jpeg';
 import q26 from '../assets/images/q26.jpeg';
-
+import AmadorMendoza from '../assets/images/AmadorMendoza.png';
+import MonseñorRicardo from '../assets/images/MonseñorRicardo.jpg';
+import MonseñorGuillermo from '../assets/images/MonseñorGuillermo.jpg';
 import cardenal1 from '../assets/images/cardenal1.jpg';
 import cardenal2 from '../assets/images/cardenal2.jpg';
 import cardenal3 from '../assets/images/cardenal3.jpg';
@@ -43,12 +46,12 @@ export default function QuienesSomos() {
       {/* 📸 Sección principal gráfica */}
       <section className="qs-grafico">
         <div className="qs-grafico-content">
-          <h2>Somos una nueva Luz que transforma</h2>
+          <h2>Somos una Luz que transforma</h2>
           <p>
             Una comunidad que acompaña, guía y comparte la fe, llevando esperanza y amor a cada familia que encuentra en el camino.
           </p>
           <div className="qs-grafico-fotos">
-            {[q1, q2, q3, q4, q5, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26].map((img, i) => (
+            {[Ad0, q1, q2, q3, q4, q5, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26].map((img, i) => (
               <div
                 key={i}
                 className="foto-placeholder"
@@ -68,55 +71,36 @@ export default function QuienesSomos() {
         <div className="lideres">
           <div className="lider">
             <div className="lider-desc">
+              <h3>Monseñor Guillermo Pacheco</h3>
+              <p>Patriarca y primado representante en Colombia con verdadera sucesion Apostolica</p>
+            </div>
+            <div className="lider-foto">
+              <img src={MonseñorGuillermo} alt="Pastor Juan Pérez" />
+            </div>
+          </div>
+
+          <div className="lider reverse">
+            <div className="lider-desc">
+              <h3>Hermano Amador Mendoza Lizano</h3>
+              <p>Primado Representante de Perú</p>
+            </div>
+            <div className="lider-foto">
+              <img src={AmadorMendoza} alt="Pastora María López" />
+            </div>
+          </div>
+
+          <div className="lider">
+            <div className="lider-desc">
               <h3>Monseñor Ricardo Cumpa</h3>
-              <p>Líder espiritual con 20 años de trayectoria guiando nuestra comunidad.</p>
+              <p>Líder espiritual representante de Chiclayo con 20 años de trayectoria guiando nuestra comunidad.</p>
             </div>
             <div className="lider-foto">
-              <img src={cardenal1} alt="Pastor Juan Pérez" />
-            </div>
-          </div>
-
-          <div className="lider reverse">
-            <div className="lider-desc">
-              <h3>Pastora María López</h3>
-              <p>Encargada de ministerios y actividades de servicio social.</p>
-            </div>
-            <div className="lider-foto">
-              <img src={cardenal2} alt="Pastora María López" />
-            </div>
-          </div>
-
-          <div className="lider">
-            <div className="lider-desc">
-              <h3>Hermano Carlos Ruiz</h3>
-              <p>Coordinador de eventos y programas de integración comunitaria.</p>
-            </div>
-            <div className="lider-foto">
-              <img src={cardenal3} alt="Hermano Carlos Ruiz" />
-            </div>
-          </div>
-
-          <div className="lider reverse">
-            <div className="lider-desc">
-              <h3>Hermana Ana Torres</h3>
-              <p>Responsable del área de educación y formación espiritual.</p>
-            </div>
-            <div className="lider-foto">
-              <img src={cardenal4} alt="Hermana Ana Torres" />
-            </div>
-          </div>
-
-          <div className="lider">
-            <div className="lider-desc">
-              <h3>Hermano Luis Gómez</h3>
-              <p>Encargado de comunicación y difusión de nuestras actividades.</p>
-            </div>
-            <div className="lider-foto">
-              <img src={cardenal5} alt="Hermano Luis Gómez" />
+              <img src={MonseñorRicardo} alt="Hermano Carlos Ruiz" />
             </div>
           </div>
         </div>
       </section>
+      <h1>Presbiteros "Sacerdotes En todo el peru"</h1>
 
       {/* 🌕 Modal imagen completa */}
       {imagenAmpliada && (
