@@ -31,13 +31,6 @@ import q26 from '../assets/images/q26.jpeg';
 import AmadorMendoza from '../assets/images/AmadorMendoza.png';
 import MonseñorRicardo from '../assets/images/MonseñorRicardo.jpg';
 import MonseñorGuillermo from '../assets/images/MonseñorGuillermo.jpg';
-
-import cardenal1 from '../assets/images/cardenal1.jpg';
-import cardenal2 from '../assets/images/cardenal2.jpg';
-import cardenal3 from '../assets/images/cardenal3.jpg';
-import cardenal4 from '../assets/images/cardenal4.jpg';
-import cardenal5 from '../assets/images/cardenal5.jpg';
-
 export default function QuienesSomos() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
 
