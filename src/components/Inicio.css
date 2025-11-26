@@ -1,0 +1,112 @@
+/* Importa las fuentes correctas */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap');
+
+/* 🔹 Estilo general */
+.home {
+  min-height: 100vh;
+  background: transparent;
+  padding: 5rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 🔹 Contenedor principal */
+.home-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 4rem 3rem;
+  background: rgba(255, 255, 255, 0.6); /* limpio y sin neblina */
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* 🔹 Título principal */
+.home-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #D4AF37; /* Dorado elegante */
+  margin-bottom: 1.5rem;
+}
+
+/* 🔹 Subtítulo */
+.home-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  color: #3A506B; /* Azul grisáceo sobrio */
+  font-weight: 600;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+}
+
+/* 🔹 Sección Visión y Misión */
+.vision-mision {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 3rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* 🔹 Tarjetas */
+.card {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 2.5rem;
+  flex: 1;
+  max-width: 500px;
+  text-align: left;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(212, 175, 55, 0.4);
+}
+
+/* 🔹 Título de la tarjeta */
+.card-title {
+  font-family: 'Playfair Display', serif;
+  color: #D4AF37;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* 🔹 Texto de la tarjeta (Misión y Visión) */
+.card-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  color: #3A506B;
+  line-height: 1.9;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* 🔹 Responsivo */
+@media (max-width: 768px) {
+  .vision-mision {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  .home-title {
+    font-size: 2.4rem;
+  }
+
+  .home-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .card-text {
+    font-size: 1.1rem;
+  }
+}
