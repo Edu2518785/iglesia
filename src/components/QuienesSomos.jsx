@@ -75,27 +75,47 @@ export default function QuienesSomos() {
               <p>Patriarca y primado representante en Colombia con verdadera sucesion Apostolica</p>
             </div>
             <div className="lider-foto">
-              <img src={MonseñorGuillermo} alt="Pastor Juan Pérez" />
+              <img src={MonseñorRicardo} alt="Pastor Juan Pérez" />
             </div>
           </div>
 
           <div className="lider reverse">
             <div className="lider-desc">
-              <h3>Hermano Amador Mendoza Lizano</h3>
-              <p>Primado Representante de Perú</p>
+              <h3>Monseñor Ricardo Cumpa</h3>
+              <p>Líder espiritual representante de Chiclayo con 20 años de trayectoria guiando nuestra comunidad.</p>
             </div>
             <div className="lider-foto">
-              <img src={AmadorMendoza} alt="Pastora María López" />
+              <img src={MonseñorGuillermo} alt="Pastora María López" />
             </div>
           </div>
 
           <div className="lider">
             <div className="lider-desc">
-              <h3>Monseñor Ricardo Cumpa</h3>
-              <p>Líder espiritual representante de Chiclayo con 20 años de trayectoria guiando nuestra comunidad.</p>
+              <h3>Hermano Amador Mendoza Lizano</h3>
+              <p>Primado en Peru</p>
             </div>
             <div className="lider-foto">
-              <img src={MonseñorRicardo} alt="Hermano Carlos Ruiz" />
+              <img src={AmadorMendoza} alt="Hermano Carlos Ruiz" />
+            </div>
+          </div>
+
+          <div className="lider reverse">
+            <div className="lider-desc">
+              <h3>Hermana Ana Torres</h3>
+              <p>Responsable del área de educación y formación espiritual.</p>
+            </div>
+            <div className="lider-foto">
+              <img src={cardenal4} alt="Hermana Ana Torres" />
+            </div>
+          </div>
+
+          <div className="lider">
+            <div className="lider-desc">
+              <h3>Hermano Luis Gómez</h3>
+              <p>Encargado de comunicación y difusión de nuestras actividades.</p>
+            </div>
+            <div className="lider-foto">
+              <img src={cardenal5} alt="Hermano Luis Gómez" />
             </div>
           </div>
         </div>
