@@ -71,7 +71,7 @@ export default function QuienesSomos() {
         <h2>
           Integrantes de nuestra comunidad{" "}
           <span className="titulo-especial">
-            "IGLESIA ASOCIACION SACERDOTA ECUMENICA JESUCRISTO IBEADOR INCARDINADA A LA IGLESIA CATOLICA APOSTOLICA NACIONAL EN COBIA Y EN PERU"
+            "IGLESIA ASOCIACIÓN SACERDOTAL ECUMENICA JESUCRISTO LIBERADOR ENCAMINADA A LA IGLESIA CATOLICA APOSTOLICA NACIONAL EN COBIA Y EN PERU"
           </span>
         </h2>
 
@@ -79,7 +79,7 @@ export default function QuienesSomos() {
           <div className="lider">
             <div className="lider-desc">
               <h3>Monseñor Guillermo Pacheco</h3>
-              <p>Patriarca y primado representante en Colombia con verdadera sucesion Apostolica</p>
+              <p>Patriarca y Primado representante en Colombia con verdadera sucesión Apostolica</p>
             </div>
             <div className="lider-foto">
               <img src={MonseñorGuillermo} alt="Pastor Juan Pérez" />
@@ -88,7 +88,7 @@ export default function QuienesSomos() {
 
           <div className="lider reverse">
             <div className="lider-desc">
-              <h3>Hermano Amador Mendoza Lizano</h3>
+              <h3>Monseñor Amador Mendoza Lizano</h3>
               <p>Primado Representante de Perú</p>
             </div>
             <div className="lider-foto">
@@ -98,7 +98,7 @@ export default function QuienesSomos() {
 
           <div className="lider">
             <div className="lider-desc">
-              <h3>Monseñor Ricardo Cumpa</h3>
+              <h3>Monseñor Ricardo Cumpa Loyaga</h3>
               <p>
                 Líder espiritual representante de Chiclayo con 20 años de trayectoria guiando nuestra comunidad.
               </p>
@@ -112,13 +112,13 @@ export default function QuienesSomos() {
 
       {/* 📌 Presbíteros */}
       <div className="presbiteros-box">
-        <h2>Presbíteros por Provincias</h2>
+        <h2>Presbíteros en Provincias</h2>
         <ul>
-          <li>• Mons. Jair Chumbiauca Rayo — Manchay, Lima</li>
-          <li>• Mons. Hoyos Darío Romero Vega — Independencia, Lima</li>
-          <li>• Mons. David Quispe Aguirre — Independencia, Lima</li>
-          <li>• Mons. Luis Ricardo Cumpa Loyaga — Chiclayo</li>
-          <li>• Mons. Oscar José Guerrero Cornejo — Piura</li>
+          <li>• Monseñor. Jair Chumbiauca Rayo — Manchay, Lima</li>
+          <li>• Monseñor. Hoyos Darío Romero Vega — Independencia, Lima</li>
+          <li>• Monseñor. David Quispe Aguirre — Independencia, Lima</li>
+          <li>• Monseñor. Luis Ricardo Cumpa Loyaga — Chiclayo</li>
+          <li>• Monseñor. Oscar José Guerrero Cornejo — Piura</li>
         </ul>
 
         <h2>Presbíteros en Todo el Perú</h2>
