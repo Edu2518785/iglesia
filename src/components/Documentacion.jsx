@@ -53,6 +53,11 @@ export default function Documentacion() {
             Carta de su Santidad El Papa León XIV Mayo 8 del 2025
           </a>
         </li>
+        <li className="doc-item">
+          <a href="/docs/libertadReligion.pdf" download>
+            Libertad de Religion
+          </a>
+        </li>
       </ul>
     </div>
   );
